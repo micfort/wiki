@@ -1,0 +1,22 @@
+key: reverseproxyheader
+title: Reverse proxy header authentication
+description: Authenticaion based on a header from the reverse proxy. All header names should be filled with lower case. WARNING, The headers should be from a trusted source.
+author: micfort
+logo: https://static.requarks.io/logo/wikijs.svg
+color: deep-orange
+website: https://wiki.js.org
+isAvailable: true
+useForm: false
+props:
+  userHeader:
+    type: String
+    title: Username header
+    order: 1
+  emailHeader:
+    type: String
+    title: E-mail header
+    order: 2
+  nameHeader:
+    type: String
+    title: Name header
+    order: 3
